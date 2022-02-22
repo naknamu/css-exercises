@@ -20,6 +20,21 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  padding: 16px;
+  gap: 16px;
+}
+
+/*naknamu*/
+.icon, .close-button{
+  flex-shrink: 0;
+}
+
+/*naknamu*/
+.header{
+  font-weight: bolder;
+  font-size: larger;
+  margin-bottom: 16px;
 }
 
 .icon {
@@ -51,6 +66,8 @@ body {
 button {
   padding: 8px 16px;
   border-radius: 8px;
+  /*naknamu*/
+  margin-top: 16px;
 }
 
 button.continue {
