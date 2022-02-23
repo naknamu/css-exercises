@@ -5,6 +5,9 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  /*naknamu*/
+  display: flex;
+  flex-direction: column;
 }
 
 img {
@@ -16,6 +19,8 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  /*naknamu*/
+  padding: 8px 16px;
 }
 
 input {
@@ -24,4 +29,42 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+
+/*naknamu*/
+.header, .footer{
+  display: flex;
+  padding: 16px;
+  justify-content: space-between;
+}
+
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1;
+}
+
+/* .header{
+  margin-bottom: auto;
+} */
+
+.footer{
+  background-color: #eeeeee;
+  /* margin-top: auto; */
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  gap: 16px;
+  padding: 0;
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(122, 122, 122);
 }
